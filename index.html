@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="well">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center"><strong>WIKIPEDIA VIEWER</strong></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="input-group">
+                    <input id="keywords" type="text" class="form-control" placeholder="Type here to search for article on">
+                    <span class="input-group-btn">
+        <button class="btn btn-info" type="button" id="search">WIKIPEDIA</button>
+      </span>
+                </div>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-12">
+                <p class="text-center or"><strong>OR</strong></p>
+            </div>
+            <div class="col-md-5 col-sm-5 col-xs-12">
+                <p><a class="btn btn-success" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">PRESS</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-arrow-left"></span>&nbsp;&nbsp;&nbsp;&nbsp;<strong class="random">the button to get RANDOM article</strong></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-info">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading text-center"><strong class="heading"></strong></div>
+                    <ul class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script/app.js"></script>
+</body>
+
+</html>
